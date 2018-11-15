@@ -1,0 +1,48 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.list-group{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row
+}
+
+.li-wrapper{
+    position:relative;
+    margin: 10px;
+    border: 1px solid #e8e5e5;
+    border-radius: 5px;
+    background: rgba(237, 237, 237, 0.1);
+    
+}
+.title{
+    text-align: center
+}
+.list-group-item{
+    background-color: #18182b;
+    height: auto;
+    color: #e3e6ed;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold
+}
+.root{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    width: auto;
+    height: auto;
+    object-fit: cover
+}
+.list-group-item :hover {
+    visibility: visible;
+    opacity: 1;
+}
+.grow { transition: all .1s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
